@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EXERCICE- PAGE LOCATION VOITURES</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+
+    <nav id="main-nav">
+        <div id="toggle-menu-container">  
+            <div id="toggle-menu">
+                <input type="checkbox" id="button">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+        <ul id="main-menu">
+            <li>Louer une voiture</li>
+            <li>Louer un utilitaire</li>
+            <li>Réserver un chauffeur</li>
+            <li>Découvrez nos agences</li>
+            <li>Mon Compte</li>
+            <li>Contact</li>       
+        </ul>
+    </nav> <!-- / NAV -->
+
+    <div id="site-title">
+    <h1>Bienvenue à bord</h1>
+    <span>Location de voiture 24h/24 et 7j/7</span>
+    </div> <!-- / #SITE-TITLE -->
+
+    <div class="choix">
+
+        <form class="choix-location">
+            
+            <p class="choix-adresse">
+                <select name=""id="adresse-depart"> 
+                    <option value="none" disabled selected>Adresse de départ</option>
+                    <option value="ville1">Ville 1</option>
+                    <option value="ville2">Ville 2</option>
+                    <option value="ville3">Ville 3</option>
+                    <option value="ville4">Ville 4</option>
+                </select>
+            </p>
+  
+            <p class="input-container">
+                <span>Début de location</span>
+                <span><input class="debut-location"></input></span>
+                       
+            </p>
+            <p class="input-container">
+                <span>Fin de location</span>
+                <span><input class="fin-location"></input></span>             
+            </p>
+        </form> <!-- / FORM.CHOIX-LOCATION -->
+
+        <input type="submit" value="Valider ma recherche">
+    </div> <!-- / .CHOIX -->
+
+</header> <!-- / .SITE-HEADER -->
+
+
+
+<div class="main-content">
+    <div class="inner-content">
+
+        <div class="resultats">
+            <p>7 résultats</p>
+            <form class="tri-resultats">
+                <select name="choix-tri" >
+                    <option value="Prix croissant">Prix croissant</option>
+                </select>
+            </form>
+        </div>
+
+        <section>
+            <div class="small-slider">
+                <img src="img/vehicule1.png" alt="Véhicule 1">
+                <!-- <img src="img/vehicule1.png" alt="Véhicule 1">
+                <img src="img/vehicule1.png" alt="Véhicule 1"> -->
+            </div>
+            <div class="description">
+                <h2 class="nom-voiture">Peugeot 208</h2>
+                <p class="liste-options">Diesel 5 portes, GPS; Autoradio, Forfait 1000km (0,5/km supplémentaure)</p>
+                <p class="prix">999€</p>
+                <button>Réserver et Payer</button>
+            </div>
+        </section> <!-- / SECTION -->
+
+        <section>
+            <div class="small-slider" id="smallSlider2">
+                <img src="img/vehicule2.png" alt="Véhicule 2" id="smallSlideImage">
+            </div>
+            <div class="description">
+                <h2 class="nom-voiture">Ford Focus</h2>
+                <p class="liste-options">Diesel 5 portes, GPS; Autoradio, Forfait 1000km (0,5/km supplémentaure)</p>
+                <p class="prix">999€</p>
+                <button>Réserver et Payer</button>
+            </div>
+        </section> <!-- / SECTION -->
+
+
+        <section>
+        <div class="small-slider" id="small-slider-3">
+            <img src="img/vehicule3.png" alt="Véhicule 3">
+            <!-- <img src="img/vehicule3.png" alt="Véhicule 3-2">
+            <img src="img/vehicule1.png" alt="Véhicule 3-3"> -->
+        </div>
+        <div class="description">
+            <h2 class="nom-voiture">Ford Focus</h2>
+            <p class="liste-options">Diesel 5 portes, GPS; Autoradio, Forfait 1000km (0,5/km supplémentaure)</p>
+            <p class="prix">999€</p>
+                <button>Réserver et Payer</button>
+            </div>
+        </section> <!-- / SECTION -->
+
+        <section>
+            <div class="small-slider">
+                <img src="img/vehicule4.png" alt="Véhicule 4">
+                <!-- <img src="img/vehicule4.png" alt="Véhicule 4-">
+                <img src="img/vehicule4.png" alt="Véhicule 4"> -->
+            </div>
+            <div class="description">
+                <h2 class="nom-voiture">Ford Focus</h2>
+                <p class="liste-options">Diesel 5 portes, GPS; Autoradio, Forfait 1000km (0,5/km supplémentaure)</p>
+                <p class="prix">999€</p>
+                <button>Réserver et Payer</button>
+            </div>
+        </section> <!-- / SECTION -->
+
+    </div> <!-- / INNER CONTENT -->
+</div> <!-- / MAIN CONTENT -->
+
+<footer>
+    <div class="footer-content">
+        <div class="image-container">
+            <img src="img/agence.png" alt="Notre agence">
+        </div>
+        <ul class="infos-agence">
+            <li>Notre agence de <strong>Paris</strong></li>
+            <li>300 boulevard de Vaugirard 75015 Paris</li>
+            <li>Ouvert 7j/7 de 09h à 13h et de 14h à 20h</li>
+            <li>01 49 78 21 33</li>
+            <li>contact@vtc.com</li>
+        </ul>
+    </div>
+</footer> <!-- / FOOTER -->
+
+<script src="js/app.js"></script>
+
+</body>
+</html>
