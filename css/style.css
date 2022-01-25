@@ -37,7 +37,7 @@ select {
     flex-direction: column;
     justify-content: space-between;
     height: 80vh;
-    background: url(../img/background.jpg) no-repeat;
+    background: url(https://github.com/SweetSue/exercice-site-voiture/blob/main/img/background.jpg) no-repeat;
     background-position: center center;
     background-size: cover;
     text-align: center;
